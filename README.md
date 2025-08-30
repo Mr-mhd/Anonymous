@@ -1,7 +1,8 @@
-Anonymous Feedback Telegram Bot
+    Anonymous Feedback Telegram Bot
+
 A Telegram bot for collecting anonymous feedback from users. This bot ensures complete anonymity by hashing user IDs before storage and provides a simple interface for both feedback providers and administrators.
 
-Features
+    Features
 Anonymous Feedback Collection: Users can provide feedback without revealing their identity
 
 Predefined Questionnaire: Set of questions that can be easily customized
@@ -14,7 +15,8 @@ Secure User ID Hashing: User identities are protected using SHA256 hashing with 
 
 Feedback Retrieval: Administrators can easily retrieve all collected feedback
 
-Setup Instructions
+    Setup Instructions
+    
 Prerequisites
 Python 3.7 or higher
 
@@ -28,6 +30,7 @@ Clone or download the project files
 bash
 mkdir feedback-bot
 cd feedback-bot
+
 Create a virtual environment
 
 bash
@@ -141,53 +144,4 @@ Bot not responding: Check your BOT_TOKEN is correct
 Database connection errors: Verify your MONGO_URI is correct and MongoDB is running
 
 Permission errors: Ensure the bot has write permissions in its directory
-
-Logs
-The bot generates logs that can help with troubleshooting. Check the console output for error messages.
-
-Contributing
-Fork the repository
-
-Create a feature branch
-
-Make your changes
-
-Test thoroughly
-
-Submit a pull request
-
-License
-This project is open source and available under the MIT License.
-
-Support
-If you encounter any issues or have questions:
-
-Check the troubleshooting section above
-
-Ensure all environment variables are properly set
-
-Verify your MongoDB connection is working
-
-Check that your Telegram bot token is valid
-
-For additional help, you can open an issue in the project repository.
-
-Future Enhancements
-Potential improvements for future versions:
-
-Web interface for feedback visualization
-
-Advanced analytics and reporting
-
-Multi-language support
-
-Customizable question sets
-
-Feedback categorization and tagging
-
-Export functionality (CSV, PDF)
-
-User authentication for administrators
-
-Rate limiting to prevent spam
 
